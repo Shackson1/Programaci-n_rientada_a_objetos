@@ -33,4 +33,4 @@ class ConversorTemperatura:
 temperatura1 = ConversorTemperatura(100, "celsius")  # Se crea una instancia con 100 grados Celsius
 temperatura1.mostrar_resultado()  # Muestra el resultado de la conversión
 temperatura2 = ConversorTemperatura(212, "fahrenheit")  # Se crea una instancia con 212 grados Fahrenheit
-temperatura2.mostrar_resultado()  # Muestra el resultado de la conversión
+temperatura2.mostrar_resultado()  # Se muestra el resultado de la conversión
