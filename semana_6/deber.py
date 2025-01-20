@@ -1,5 +1,5 @@
 
-#Este programa emula una tienda de laptops utilizando herencia, encapsulación y polimorfismo en Python. La clase base Laptop define atributos y métodos comunes para las laptops, mientras que la clase derivada LaptopGamer añade características específicas como GPU y tasa de refresco. El atributo privado __precio está encapsulado para un manejo seguro, y el metodo mostrar_informacion se sobrescribe en la clase derivada para incluir detalles adicionales.
+#Este programa simula una tienda de laptops utilizando herencia, encapsulación y polimorfismo en Python. La clase base Laptop define atributos y métodos comunes para las laptops, mientras que la clase derivada LaptopGamer añade características específicas como GPU y tasa de refresco. El atributo privado __precio está encapsulado para un manejo seguro, y el metodo mostrar_informacion se sobrescribe en la clase derivada para incluir detalles adicionales.
 # Clase base
 class Laptop:
     def __init__(self, marca, modelo, procesador, ram, precio):
